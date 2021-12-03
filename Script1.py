@@ -9,7 +9,7 @@ dict123={
 'device_type':'cisco_ios'
 }
 
-ssh123=ConnectHandler(**dict123)      #thischecksthedevice_typeandestablishestheconnection
+ssh123=ConnectHandler(**dict123)      #this checks the device_type and establishes the connection
 print(ssh123)
 a=ssh123.find_prompt()
 print("sshissuccessfulto"+a)
