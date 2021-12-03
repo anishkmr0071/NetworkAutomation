@@ -1,11 +1,12 @@
 # This is same as Script 4, but if the device list (ip address is stored in a text file) is in another folder path, then use the follwoing script:
 # using: open(), split(), splitlines(), json.loads(): to read the text from a notepad.
-#send_command
-#Send_config_set
-#input()
-#open() or open(r'C:\Users\anish\doc\)
-#split()
-#splitlines()
+
+#send_command : It sends the command that we mention, we can use this command after ssh is established. This is a method in base connection. It takes only one command and applies to only privilege mode You can use for loop and send multiple commands.
+#Send_config_set: It takes multiple commands using list, applies in global configuration mode and after executing the command, it will end and come back to privilege mode. 
+#input(): It will take username input and password input from the user
+#open() or open(r'C:\Users\anish\doc\): open(r"C:\Users\Public\Downloads\list_of_devices.txt") (Or) open("C:\\Users\\Public\\Downloads\\list_of_devices.txt")
+#split(): Example: abc123 = new_list_multiple_list123.read().split("\n")
+#splitlines(): Example: open("login_cred.txt").read().Splitlines()
 
 from netmiko import ConnectHandler
 import json
@@ -17,7 +18,7 @@ js = json.loads(credentials)
 print(js)
 print(type(js))
 
-Multiple_devices = open(r'C:\Users\anish.yavapuram\PycharmProjects\pythonProject1\another folder\multiple_device_list.txt').read().split(",")
+Multiple_devices = open(r'C:\Users\anish\PycharmProjects\pythonProject1\another folder\multiple_device_list.txt').read().split(",")
 
 for i in Multiple_devices:
     cisco_box = {
