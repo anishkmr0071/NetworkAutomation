@@ -36,9 +36,9 @@ print(ssh_1.find_prompt())
 ###################################################
 out123_2 = ssh_1.send_command("sh privilege")
 print(out123_2)
-	
-	// in the above code, enable function will take the secret pass, by itself from the dictionary. 
-	But if want to do it more manually. We can do it using, read_until_prompt_or_pattern() or read_until_prompt() or read_until_pattern() or write_channel() and if condition
+
+#in the above code, enable function will take the secret pass, by itself from the dictionary. 
+#But if want to do it more manually. We can do it using, read_until_prompt_or_pattern() or read_until_prompt() or read_until_pattern() or write_channel() and if condition
 	
   
   
