@@ -1,6 +1,6 @@
 #Create a python script to connect to a cisco box and push "config" changes via external notepad. p.s: each device has its own config file. 
 # Taking backups of multiple commands(show commands) for each IP, and create different files for each ip and store the outputs of show commands to their respective files
-#Methods Used : open(), with open(), open modes, 
+#Methods Used : open(), with open(), open modes, srtip()
 	
 	from netmiko import ConnectHandler
 	import getpass
