@@ -20,7 +20,7 @@
 	    prompt = ssh_1.find_prompt()
 	    host = ssh_1.find_prompt().rstrip("#")
 	    multiple_commands = ["sh run", "sh ip int brief", "sh clock", "sh ip route"]
-	    path_1 = r"C:\\Users\\anish.yavapuram\\PycharmProjects\\pythonProject1\\another folder\\backup_"
+	    path_1 = r"C:\\Users\\anish\\PycharmProjects\\pythonProject1\\another folder\\backup_"
 	
 	    #openfile = open(path_1 + i + "_" +  host + ".txt", "w")
 	    #openfile.write(output_1)
