@@ -38,7 +38,7 @@ for i in ip_list:
     push_to_device = ssh_1.send_config_from_file(device_config_file)
     print(push_to_device)
     
-    #post
+    #post Config
     with open(path_1 + host + "_" + i + "_" + time_1 + ".txt", mode="a") as openfile:    
 
     # or to write it in a new file:  with open(path_1 + host + "_" + i + "_" + time_1 + ".txt", mode="w") as openfile:
