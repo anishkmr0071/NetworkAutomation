@@ -56,12 +56,12 @@ for p in string_1:
     if "23.3.3.3" in cmd_1:
         print("Logging Host is already configured")
     else:
-        #push_file = ssh_session.send_config_from_file(r"C:\\Users\\anish.yavapuram\\PycharmProjects\\pythonProject1\\day8.txt")
+        #push_file = ssh_session.send_config_from_file(r"C:\\Users\\anish\\PycharmProjects\\pythonProject1\\day8.txt")
         #print(push_file)
         #or
         #push_file = ssh_session.send_config_from_file(input("enter the file name:"))
         #or
-        #push_file = ssh_session.send_config_from_file("C:\\Users\\anish.yavapuram\\PycharmProjects\\pythonProject1\\day8.txt")
+        #push_file = ssh_session.send_config_from_file("C:\\Users\\anish\\PycharmProjects\\pythonProject1\\day8.txt")
         push_file
     print(cmd_1)
     if "23.3.3.3" in cmd_1:
