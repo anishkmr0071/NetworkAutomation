@@ -1,7 +1,6 @@
 #The following script use the file_transfer module (using put and get) and perform the file transfer between the network device and the host. Following 2 lines are important to do the file_transfer operation
 #	1) from netmiko import file_transfer 
-#	2)  backup_upload = file_transfer(ssh_login, source_file="testing.txt", dest_file="testing_uploaded_1.txt",
-                                  file_system="disk0:", direction="put")
+#	2)  backup_upload = file_transfer(ssh_login, source_file="testing.txt", dest_file="testing_uploaded_1.txt",file_system="disk0:", direction="put")
 
 
 
