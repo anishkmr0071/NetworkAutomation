@@ -1,4 +1,5 @@
 # using: for loop for multiple devices; send_config_set to pass multiple commands; used input to take credentials
+#My website: useful Methods or function: https://firesecurity251419631.wordpress.com/
 
 from netmiko import ConnectHandler
 ip_list = ["192.168.30.151", "192.168.30.152"]
